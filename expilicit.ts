@@ -22,6 +22,23 @@ let book: object;
 
 book = { name: 'book name', rating: 8, author: 'name' };
 
+// let obj = {
+//   name: 'String',
+//   age: 25,
+// }
+
+let obj: any;
+
+obj = {  
+  name: 'String',
+  age: 45 
+}
+
+obj.rating = 8
+
+
+let num = 45;
+
 let dog: {
   name: string,
   height: number,
